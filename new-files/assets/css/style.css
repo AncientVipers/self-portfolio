@@ -13861,18 +13861,100 @@ figcaption {
 /*---------------------------
     Service Area Styles 
 -----------------------------*/
-.rn-service {
+OLDONE .rn-service {
   text-align: left;
   padding: 35px 50px 35px 50px;
   transition: 0.5s all ease-in-out;
   position: relative;
   border-radius: 10px;
-  background: var(--background-color-1);
+  background: dimgray;
   box-shadow: var(--shadow-1);
   position: relative;
   z-index: 1;
   height: 100%;
 }
+
+.rn-service-discord {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #0017853d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.rn-service-frontend {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #8110003d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.rn-service-system {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #004E2F3d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.rn-service-botdev {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #0055103d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.rn-service-twitch {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #4400553d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.rn-service-system {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #5547003d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-service {
     padding: 30px 30px 30px 30px;
