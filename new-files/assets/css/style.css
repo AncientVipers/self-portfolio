@@ -49,6 +49,8 @@
   --background-color-2: #212428;
   --shadow-1: 10px 10px 19px #1c1e22,
       -10px -10px 19px #262a2e;
+  --shadow-3: 10px 10px 19px #383838,
+  -10px -10px 19px #595a5b;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
   --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
@@ -13868,7 +13870,6 @@ OLDONE .rn-service {
   position: relative;
   border-radius: 10px;
   background: dimgray;
-  box-shadow: var(--shadow-1);
   position: relative;
   z-index: 1;
   height: 100%;
@@ -13952,7 +13953,18 @@ OLDONE .rn-service {
   height: 100%;
 }
 
-
+.img-verbetering {
+  text-align: left;
+  padding: 25px 25px 25px 30px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 1px;
+  background: #8e0f333c;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
