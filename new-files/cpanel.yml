@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/denarema/portfolio.ancientvipers.nl
+    - /bin/cp -R * $DEPLOYPATH
