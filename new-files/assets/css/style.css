@@ -49,6 +49,8 @@
   --background-color-2: #212428;
   --shadow-1: 10px 10px 19px #1c1e22,
       -10px -10px 19px #262a2e;
+  --shadow-3: 10px 10px 19px #383838,
+  -10px -10px 19px #595a5b;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
   --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
@@ -6418,6 +6420,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 input {
@@ -7390,24 +7393,28 @@ input:-moz-placeholder,
 textarea:-moz-placeholder {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 /*=============================
@@ -11123,8 +11130,9 @@ body.template-color-1 {
   top: 0;
 }
 .home-sticky .sticky .header-wrapper {
-  height: 90px;
+  height: 100px;
   border-bottom: none;
+  margin-bottom: 30px;
 }
 .home-sticky .header-wrapper .header-right a.rn-btn {
   display: none;
@@ -11253,7 +11261,7 @@ body.template-color-1 {
   }
 }
 .sticky .header-wrapper .logo img {
-  max-width: 90%;
+  max-width: 80%;
 }
 
 .logo a {
@@ -13860,18 +13868,99 @@ figcaption {
 /*---------------------------
     Service Area Styles 
 -----------------------------*/
-.rn-service {
+
+.rn-service-discord {
   text-align: left;
   padding: 35px 50px 35px 50px;
   transition: 0.5s all ease-in-out;
   position: relative;
   border-radius: 10px;
-  background: var(--background-color-1);
+  background: #0017853d;
   box-shadow: var(--shadow-1);
   position: relative;
   z-index: 1;
   height: 100%;
 }
+
+.rn-service-frontend {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #8110003d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.rn-service-photographer {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #2e007348;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.rn-service-botdev {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #0055103d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.rn-service-twitch {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #4400553d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.rn-service-system {
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background: #5547003d;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.img-verbetering {
+  text-align: left;
+  padding: 25px 25px 25px 30px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 1px;
+  background: #8e0f333c;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-service {
     padding: 30px 30px 30px 30px;
@@ -14172,6 +14261,7 @@ button.close {
   background-color: transparent;
   border: 0;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .close {
@@ -19705,3 +19795,6 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-white) !important;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+/*# Welcome to my website Find me On icons such as facebook and instagram logo */
