@@ -6420,6 +6420,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 
 input {
@@ -7392,24 +7393,28 @@ input:-moz-placeholder,
 textarea:-moz-placeholder {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 /*=============================
@@ -13901,13 +13906,13 @@ OLDONE .rn-service {
   height: 100%;
 }
 
-.rn-service-test {
+.rn-service-photographer {
   text-align: left;
   padding: 35px 50px 35px 50px;
   transition: 0.5s all ease-in-out;
   position: relative;
   border-radius: 10px;
-  background: #2e00733d;
+  background: #2e007348;
   box-shadow: var(--shadow-1);
   position: relative;
   z-index: 1;
@@ -14267,6 +14272,7 @@ button.close {
   background-color: transparent;
   border: 0;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .close {
