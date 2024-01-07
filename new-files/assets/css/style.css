@@ -11568,6 +11568,7 @@ body.template-color-1 {
 .popup-mobile-menu.menu-open .inner .content {
   display: flex;
   flex-direction: column;
+  padding-left: 30px;
 }
 .popup-mobile-menu.menu-open .inner .content .primary-menu {
   margin-top: 20px;
