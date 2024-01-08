@@ -4768,6 +4768,14 @@ ol ul {
     margin-top: 60px !important;
   }
 
+  .mt_sm--120 {
+    margin-bottom: 120px;
+  }
+
+  .resume-single-list2 {
+    padding-bottom: 120px
+  }
+
   .ml_sm--60 {
     margin-left: 60px !important;
   }
@@ -19801,7 +19809,12 @@ body.white-version .rn-btn-ulderline {
 /*# Welcome to my website Find me On icons such as facebook and instagram logo */
 
 
+
 .discord-widget {
 background-color: darkred;
 width:300px;
+}
+
+.inner2 {
+  padding-bottom: 120px;
 }
